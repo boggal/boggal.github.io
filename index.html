@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <body style = "margin:0">
+    <link rel="stylesheet" type="text/css" href="boxes.css" />
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+    <link rel="stylesheet" type="text/css" href="animate.min.css"/>
+    
+</head>
+<body>
+  <div class="boxes">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <img src="down.png" onclick="topFunction()" id="myBtn" class="animate__animated animate__fadeInDown" style="width: 40px;">
+<div class="beforejoe"></div>
+<div class="beforejoe2"></div>
+
+<div class="joe">
+  <h1 id="home" class="animate__animated animate__fadeInDown" style="color:white; text-align: center;font-size: 40px;"> boggal</h1>
+  <p class="animate__animated animate__fadeInDown" style="color:white; text-align: center;font-size: 30px;font-weight: 400;"> Software Developer, Video editor, Animator and Content Creator.</p>
+ 
+  <div class="container" class="animate__animated animate__fadeInDown"> 
+    
+    <div class="animate__animated animate__fadeInDown" style="width:100px; margin-left: 30px;">
+      <a href="projects.html">
+        <img src="check2.png" style="width:100px;" >
+      </a>
+        <p class="imagetext">Projects</p>
+    </div>
+
+    <div class="animate__animated animate__fadeInDown" style="width:100px; margin-left: 30px;">
+      <a href="index.html">
+        <img src="check.png" style="width:100px;" >
+      </a>
+      <p class="imagetext">About</p>
+    </div>
+
+    <div class="animate__animated animate__fadeInDown" style="width:100px; margin-left: 30px;">
+      <a target="_blank" href="php.html">
+        <img src="projects.png" style="width:100px;" >
+      </a>
+      <p class="imagetext">Login</p>
+   </div>
+
+  </div>
+</div>
+<ul class="animate__animated animate__fadeInDown">
+  <li><a href="#home" class="joetext">boggal</a></li>
+  <li><a href="#home" class="joetextnew">Home</a></li>
+  <li><a href="php.html" class="joetextnew">Login</a></li>
+</ul>
+</div>
+<p style="margin-top: 600px;"><br<></p>
+</body> 
+<footer id="contact">
+  <h1 class="animate__animated animate__fadeInDown" style="color: rgb(56, 56, 56); text-align: center;font-size: 30px;"><br>contact(); </h1>
+
+  <div class="footerclass animate__animated animate__fadeInDown"><ul<li><a style="text-decoration: none;color:rgb(56, 56, 56);" href="mailto:cadendev@email.com">✉️cadendev@email.com();</a></li></ul></div>
+  <ul  class="animate__animated animate__fadeInDown">
+    <li>
+      <a target="_blank" href="https://twitter.com/boggallol" class="twitter">t</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.youtube.com/channel/UCl60axFxQc4I5Sg593yR84g" class="youtube">y</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.reddit.com/user/bog-gal" class="reddit">x</a>
+    </li>
+</ul>
+</footer>
+</html>
+<script>
+  //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+
+
+
